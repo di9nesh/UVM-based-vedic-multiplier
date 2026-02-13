@@ -67,19 +67,19 @@ rtl/
 vedic_64x64.sv
 
 tb/
-ved_if.sv
-ved_assertions.sv
-ved_pkg.sv
+ved_if.sv,
+ved_assertions.sv,
+ved_pkg.sv,
 ved_tb_top.sv
 
 tb/tests/
-ved_test_basic.sv
-ved_test_corner.sv
+ved_test_basic.sv,
+ved_test_corner.sv,
 ved_test_random_cov.sv
 
 tb/run/
-compile_questa.do
-run_questa.do
+compile_questa.do,
+run_questa.do,
 regress.sh
 
 ---
