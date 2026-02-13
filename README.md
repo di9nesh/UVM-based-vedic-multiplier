@@ -63,21 +63,24 @@ Complete SystemVerilog UVM testbench including:
 ---
 
 ## Project Structure
-tb
-  ved_if.sv
-  ved_assertions.sv
-  ved_pkg.sv
-  ved_tb_top.sv
-  tests
-    ved_test_basic.sv
-    ved_test_corner.sv
-    ved_test_random_cov.sv
-  run
-    compile_questa.do
-    run_questa.do
-    regress.sh
-rtl
-  vedic_64x64.sv   // your RTL (all modules)
+rtl/
+vedic_64x64.sv
+
+tb/
+ved_if.sv
+ved_assertions.sv
+ved_pkg.sv
+ved_tb_top.sv
+
+tb/tests/
+ved_test_basic.sv
+ved_test_corner.sv
+ved_test_random_cov.sv
+
+tb/run/
+compile_questa.do
+run_questa.do
+regress.sh
 
 ---
 
