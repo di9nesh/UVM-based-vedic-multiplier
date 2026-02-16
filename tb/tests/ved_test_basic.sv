@@ -23,3 +23,4 @@ class ved_test_basic extends ved_base_test;
     phase.drop_objection(this);
   endtask
 endclass
+
