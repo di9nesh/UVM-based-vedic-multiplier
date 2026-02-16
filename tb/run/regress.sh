@@ -14,3 +14,4 @@ echo "Running RANDOM+COV..."
 vsim -c -do "vsim work.ved_tb_top +UVM_TESTNAME=ved_test_random_cov; run -all; quit -f"
 
 echo "Regression done."
+
